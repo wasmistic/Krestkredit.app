@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'public_sansbold';
+    src: url('~@/assets/font/publicsans-bold-webfont.woff2') format('woff2'),
+         url('~@/assets/font/publicsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'public_sansextrabold';
+    src: url('~@/assets/font/publicsans-extrabold-webfont.woff2') format('woff2'),
+         url('~@/assets/font/publicsans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'public_sansregular';
+    src: url('~@/assets/font/publicsans-regular-webfont.woff2') format('woff2'),
+         url('~@/assets/font/publicsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$extra:'public_sansextrabold';
+$bold:'public_sansbold';
+$regular:'public_sansregular';
+$interregular:interregular;
+$secondary: #06F2DB;
+$lightsecondary: #06f2da17;
+$primary:#140D40;
+$plain:#E5E5E5;
+$brown:#F27405;
+$deepblue:#06C7F2;
+$color:#19D16F;
+
+@mixin header {
+    
+}
+
