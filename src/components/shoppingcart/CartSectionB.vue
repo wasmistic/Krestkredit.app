@@ -5,7 +5,8 @@
                  <div class="wrap">
                      <div class="row">
                <div class="col-12 col-lg-9">
-                    <table>
+                   <div class="overflow_box">
+                            <table>
                 <thead>
                     <tr>
                         <th>
@@ -222,6 +223,7 @@
                     </tr>
                 </tbody>
             </table>
+                   </div>
                </div>
                <div class="col-12 col-lg-3">
                    <div>
@@ -438,11 +440,15 @@ color: $primary;
 
 @media(max-width: 500px){
     .wrapper{
+        
+    }
+    .overflow_box{
         width: 100%;
         overflow: scroll;
         overflow-y: scroll;
+        margin-bottom: 2rem;
     }
-    .wrap{
+    table{
         width: 750px;
     }
 }

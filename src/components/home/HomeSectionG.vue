@@ -56,4 +56,10 @@ h2 span.break_text{
      font-size: 35px;
     // line-height: 48px;
 }
+@media(max-width: 500px){
+    h2{
+        font-size: 20px;
+        text-align: center;
+    }
+}
 </style>
